@@ -1,5 +1,21 @@
-.hero {
+.introContainer {
     background-image: url(./Images/heroimageoahu.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 97.5vh;
+}
+
+.aboutContainer {
+    padding: 6em 3em;
+}
+
+.skillsContainer {
+    padding: 6em 3em;
+}
+
+.projectsContainer {
+    padding: 6em 3em;
+}
+
+.footerContainer {
+    padding: 6em 3em;
 }
