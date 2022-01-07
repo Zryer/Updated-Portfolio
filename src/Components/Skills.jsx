@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const Skills = () => {
     return(
-        <Container>
+        <Container id="Skills">
             <Row>
                 <Col>Hello there Skills me</Col>
                 <Button variant="warning">Button Skills</Button>

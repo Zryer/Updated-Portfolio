@@ -1,14 +1,22 @@
 import React from 'react';
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Container, Nav, Image } from 'react-bootstrap';
+import Logo from '../Images/logo.png';
 
 const Header = () => {
-    return(
-        <Navbar bg="primary" expand="lg">
+    return (
+        <Navbar variant="dark" bg="dark" expand="lg" fixed="top">
             <Container>
-                <Navbar.Brand>React</Navbar.Brand>
+                <Navbar.Brand href="#">
+                    <Image src={Logo} alt="" width="30" height="30" />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse>
                     <Nav>
-                        <NavDropdown></NavDropdown>
+                        <Nav.Link href="#Home">Home</Nav.Link>
+                        <Nav.Link href="#About">About</Nav.Link>
+                        <Nav.Link href="#Skills">Skills</Nav.Link>
+                        <Nav.Link href="#Projects">Projects</Nav.Link>
+                        <Nav.Link href="#Links">Links</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

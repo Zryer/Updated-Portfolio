@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const About = () => {
     return(
-        <Container>
+        <Container id="About">
             <Row>
                 <Col>Hello there about me</Col>
                 <Button variant="secondary">Button about</Button>
