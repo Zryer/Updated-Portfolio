@@ -1,7 +1,11 @@
+body {
+    background-color: white;
+}
+
 .introContainer {
-    background-image: url(./Images/heroimageoahu.jpg);
+    background-image: url(./Images/newHero.jpg);
     background-size: cover;
-    height: 97.5vh;
+    height: 100vh;
 }
 
 .aboutContainer {
@@ -18,4 +22,42 @@
 
 .footerContainer {
     padding: 6em 3em;
+}
+
+.carouselItem {
+    cursor: pointer;
+}
+
+.carouselImage {
+    margin-bottom: 5rem;
+    width: auto;
+    height: 20rem;
+}
+
+.projectCard {
+    height: 100%;
+}
+
+.aboutImage {
+    width: 15rem;
+    height: 15rem;
+}
+
+.modalImage {
+    width: 25rem;
+    height: 30rem;
+    object-fit: contain;
+}
+
+.modalRow {
+    text-align: center;
+}
+
+.navbar {
+    justify-content: center;
+    padding: 0;
+}
+
+.iconFA {
+    font-size: 7rem;
 }

@@ -5,8 +5,8 @@ const Footer = () => {
     return(
         <Container id="Links" className="footerContainer">
             <Row className="text-center position-relative top-50">
-                <Col>Hello there Footer me</Col>
-                <Button variant="primary">Button Footer</Button>
+                <Col xs={12}>Hello there Footer me</Col>
+                <Col><a href="https://github.com/Zryer" target="blank"><i className="fab fa-github iconFA"></i></a></Col>
             </Row>
         </Container>
     )
