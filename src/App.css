@@ -22,6 +22,7 @@ body {
 
 .footerContainer {
     padding: 6em 3em;
+    background-color: #a9a9a9;
 }
 
 .carouselItem {
@@ -60,4 +61,8 @@ body {
 
 .iconFA {
     font-size: 7rem;
+}
+
+.modalTitle {
+    justify-content: center;
 }
