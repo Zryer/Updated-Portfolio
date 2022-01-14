@@ -47,7 +47,7 @@ const Projects = () => {
                 <Col md={6} lg={4}>
                     <Card className="projectCard">
                         <Card.Body>
-                            <Card.Title>Project React</Card.Title>
+                            <Card.Title>Old Portfolio</Card.Title>
                             <Carousel variant="dark" pause={false}>
                                 <Carousel.Item className="carouselItem" interval={10000}>
                                     <ProjectModal Name="Home page of react Project" Desc="first image" Img={Reacthome} />
