@@ -36,7 +36,8 @@ body {
 }
 
 .projectCard {
-    height: 100%;
+    border-color:red;
+    margin-top:1rem;
 }
 
 .aboutImage {
@@ -46,7 +47,7 @@ body {
 
 .modalImage {
     width: 25rem;
-    height: 30rem;
+    height:25rem;
     object-fit: contain;
 }
 
@@ -65,4 +66,8 @@ body {
 
 .modalTitle {
     justify-content: center;
+}
+
+.projectModal {
+
 }
