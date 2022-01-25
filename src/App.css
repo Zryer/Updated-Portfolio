@@ -61,13 +61,47 @@ body {
 }
 
 .iconFA {
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 .modalTitle {
     justify-content: center;
 }
 
-.projectModal {
 
+.skillsTitle {
+    margin-bottom: 3rem;
+}
+
+.skillsFlex {
+    display: flex;
+}
+
+.skillIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconHTML {
+    color: #DD4B25;
+}
+
+.iconCSS {
+    color: #254BDD;
+}
+
+.iconJS {
+    color: #EFD81D;
+}
+
+.iconREACT {
+    color: #5CCEEC
+}
+
+.iconMONGO {
+    color: #439743
+}
+
+.iconNODE {
+    color: #5E9659
 }

@@ -1,8 +1,14 @@
-import { React } from 'react';
+import React from 'react';
 import { Container, Row, Col, Carousel, Card } from 'react-bootstrap';
+
+import {IconHTML, IconCSS, IconArrowDown} from './Icons';
 import ProjectModal from './ProjectModal';
 
-import RNH from '../Images/ReactNativeHome.png';
+import ReactNativeHome from '../Images/ReactNativeHome.png';
+import ReactNativeAbout from '../Images/ReactNativeAbout.png';
+import ReactNativeAttractions from '../Images/ReactNativeAttractions.png';
+import ReactNativeMap from '../Images/ReactNativeMap.png';
+import ReactNativeBeaches from '../Images/ReactNativeBeaches.png';
 import Reacthome from '../Images/ReactHome.png'
 import RHome from '../Images/ReactHome.png';
 import RB from '../Images/ReactBeaches.png';
@@ -21,19 +27,23 @@ const Projects = () => {
                             <Card.Title>Project React Native</Card.Title>
                             <Carousel variant="dark" pause={false}>
                                 <Carousel.Item className="carouselItem" interval={10000}>
-                                    <ProjectModal Name="React Native Project Home Page" Desc="This is the home page" Img={RNH} Github="https://github.com/mj-wd/oahu-project-react-native" />
+                                    <ProjectModal Name="React Native Project Home Page" Desc="This is the home page" Icon={<><h1>Built using {<IconArrowDown />}</h1><IconHTML /><IconCSS /></>} Img={ReactNativeHome} Github="https://github.com/mj-wd/oahu-project-react-native" />
                                     <Carousel.Caption>Home Page</Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item className="carouselItem" interval={10000}>
-                                    <ProjectModal Name="React Native Project Attractions Page" Desc="This is the attractions page" Img={RNH} Github="https://github.com/mj-wd/oahu-project-react-native" />
+                                    <ProjectModal Name="React Native Project Attractions Page" Desc="This is the attractions page" Img={ReactNativeAttractions} Github="https://github.com/mj-wd/oahu-project-react-native" />
                                     <Carousel.Caption>Attractions Page</Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item className="carouselItem" interval={10000}>
-                                    <ProjectModal Name="React Native Project Map Page" Desc="This is the map page" Img={RNH} Github="https://github.com/mj-wd/oahu-project-react-native" />
+                                    <ProjectModal Name="React Native Project Beaches Page" Desc="This is the beaches page" Img={ReactNativeBeaches} Github="https://github.com/mj-wd/oahu-project-react-native" />
+                                    <Carousel.Caption>Beaches Page from Attractions</Carousel.Caption>
+                                </Carousel.Item>
+                                <Carousel.Item className="carouselItem" interval={10000}>
+                                    <ProjectModal Name="React Native Project Map Page" Desc="This is the map page" Img={ReactNativeMap} Github="https://github.com/mj-wd/oahu-project-react-native" />
                                     <Carousel.Caption>Map Page</Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item className="carouselItem" interval={10000}>
-                                    <ProjectModal Name="React Native Project About Page" Desc="This is the about page" Img={RNH} Github="https://github.com/mj-wd/oahu-project-react-native" />
+                                    <ProjectModal Name="React Native Project About Page" Desc="This is the about page" Img={ReactNativeAbout} Github="https://github.com/mj-wd/oahu-project-react-native" />
                                     <Carousel.Caption>About Page</Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>

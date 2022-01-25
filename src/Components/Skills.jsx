@@ -1,20 +1,20 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
-import Logo from '../Images/logo.png'
-
 const Skills = () => {
     return (
-        <Container id="Skills" className="skillsContainer">
+        <Container fluid id="Skills" className="skillsContainer">
+            
             <Row className="text-center">
                 <Col>
-                    <h1>These are my skills</h1>
+                    <h1 className="skillsTitle">These are my skills</h1>
                 </Col>
             </Row>
+            
             <Row className="text-center">
-                <Col md={4}>
+                <Col lg={4} className="skillsFlex">
                     <Card>
-                        <Card.Img variant="top" src={Logo} />
+                        <Card.Header className="skillIcons"><i className="fab fa-html5 iconFA iconHTML"></i><i className="fab fa-css3-alt iconFA iconCSS"></i><i className="fab fa-js-square iconFA iconJS"></i></Card.Header>
                         <Card.Body>
                             <Card.Title>
                                 HTML5 / CSS3 / JavaScript
@@ -25,9 +25,9 @@ const Skills = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md={4}>
+                <Col lg={4} className="skillsFlex">
                     <Card>
-                        <Card.Img variant="top" src={Logo} />
+                        <Card.Header className="skillIcons"><i className="fab fa-react iconFA iconREACT"></i></Card.Header>
                         <Card.Body>
                             <Card.Title>
                                 React / React Native
@@ -38,9 +38,9 @@ const Skills = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md={4}>
+                <Col lg={4} className="skillsFlex">
                     <Card>
-                        <Card.Img variant="top" src={Logo} />
+                        <Card.Header className="skillIcons"><i className="fas fa-database iconFA iconMONGO"></i><i className="fab fa-react iconFA iconREACT"></i><i className="fab fa-node iconFA iconNODE"></i></Card.Header>
                         <Card.Body>
                             <Card.Title>
                                 MERN Stack
@@ -52,7 +52,7 @@ const Skills = () => {
                     </Card>
                 </Col>
             </Row>
-        </Container>
+        </Container >
     )
 }
 

@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import { Modal, Button, Container, Row, Col, Image } from 'react-bootstrap';
 
-const ProjectModal = ({ Name, Desc, Img, Github }) => {
+const ProjectModal = ({ Name, Desc, Img, Github, Icon }) => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -19,6 +19,7 @@ const ProjectModal = ({ Name, Desc, Img, Github }) => {
                         <Row className="modalRow">
                             <Col xs={12}><Image src={Img} className="modalImage"></Image></Col>
                             <Col xs={12}>{Desc}</Col>
+                            <Col xs={12}>{Icon}</Col>
                         </Row>
                     </Container>
                 </Modal.Body>
