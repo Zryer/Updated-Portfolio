@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { IconHTML, IconCSS, IconJS, IconREACT, IconMONGO, IconNODE, IconREACTNATIVE} from './Icons';
 
 const Skills = () => {
     return (
@@ -14,7 +15,7 @@ const Skills = () => {
             <Row className="text-center">
                 <Col lg={4} className="skillsFlex">
                     <Card>
-                        <Card.Header className="skillIcons"><i className="fab fa-html5 iconFA iconHTML"></i><i className="fab fa-css3-alt iconFA iconCSS"></i><i className="fab fa-js-square iconFA iconJS"></i></Card.Header>
+                        <Card.Header className="skillIcons"><IconHTML /><IconCSS /><IconJS /></Card.Header>
                         <Card.Body>
                             <Card.Title>
                                 HTML5 / CSS3 / JavaScript
@@ -27,7 +28,7 @@ const Skills = () => {
                 </Col>
                 <Col lg={4} className="skillsFlex">
                     <Card>
-                        <Card.Header className="skillIcons"><i className="fab fa-react iconFA iconREACT"></i></Card.Header>
+                        <Card.Header className="skillIcons"><IconREACT /><IconREACTNATIVE /></Card.Header>
                         <Card.Body>
                             <Card.Title>
                                 React / React Native
@@ -40,7 +41,7 @@ const Skills = () => {
                 </Col>
                 <Col lg={4} className="skillsFlex">
                     <Card>
-                        <Card.Header className="skillIcons"><i className="fas fa-database iconFA iconMONGO"></i><i className="fab fa-react iconFA iconREACT"></i><i className="fab fa-node iconFA iconNODE"></i></Card.Header>
+                        <Card.Header className="skillIcons"><IconMONGO /><IconREACT /><IconNODE /></Card.Header>
                         <Card.Body>
                             <Card.Title>
                                 MERN Stack

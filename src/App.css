@@ -36,8 +36,9 @@ body {
 }
 
 .projectCard {
-    border-color:red;
+    border-color:#000;
     margin-top:1rem;
+    background-color: #FF9138;
 }
 
 .aboutImage {
@@ -49,6 +50,7 @@ body {
     width: 25rem;
     height:25rem;
     object-fit: contain;
+    margin: 0 auto;
 }
 
 .modalRow {
@@ -61,13 +63,28 @@ body {
 }
 
 .iconFA {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .modalTitle {
     justify-content: center;
+    background-image: linear-gradient(180deg, #ffee85, #f4e977);
+    border: none;
 }
 
+.modalBody {
+    background-image: linear-gradient(180deg, #f4e977, #fbd182);
+    border: none;
+}
+
+.modalFooter {
+    background-image: linear-gradient(180deg, #fbd182, #f4b990);
+    border: none;
+}
+
+.projectModal {
+    color: red;
+}
 
 .skillsTitle {
     margin-bottom: 3rem;
@@ -79,7 +96,7 @@ body {
 
 .skillIcons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .iconHTML {
@@ -105,3 +122,9 @@ body {
 .iconNODE {
     color: #5E9659
 }
+
+.modalIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
