@@ -1,0 +1,19 @@
+.projectsContainer {
+    padding: 6em 3em;
+}
+
+.carouselItem {
+    cursor: pointer;
+}
+
+.carouselImage {
+    margin-bottom: 5rem;
+    width: auto;
+    height: 20rem;
+}
+
+.projectCard {
+    border-color:#000;
+    margin-top:1rem;
+    background-color: #FF9138;
+}

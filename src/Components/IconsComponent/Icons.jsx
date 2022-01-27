@@ -50,12 +50,12 @@ export const IconARROWDOWN = () => {
 
 export const IconLINKEDIN = () => {
     return (
-        <i className="fab fa-linkedin iconFA"></i>
+        <i className="fab fa-linkedin iconFA iconLINKEDIN"><h3>Linkedin</h3></i>
     )
 }
 
 export const IconGITHUB = () => {
     return (
-        <i className="fab fa-github iconFA"></i>
+        <i className="fab fa-github iconFA iconGITHUB"><h3>Github</h3></i>
     )
 }

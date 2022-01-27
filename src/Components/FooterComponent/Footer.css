@@ -1,0 +1,13 @@
+.footerGithub :hover {
+    color: black;
+}
+
+.footerLinkedin :hover {
+    color: blue;
+}
+
+
+.footerContainer {
+    padding: 6em 3em;
+    background-color: #a9a9a9;
+}

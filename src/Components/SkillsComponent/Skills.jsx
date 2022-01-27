@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { IconHTML, IconCSS, IconJS, IconREACT, IconMONGO, IconNODE, IconREACTNATIVE} from './Icons';
+import { IconHTML, IconCSS, IconJS, IconREACT, IconMONGO, IconNODE, IconREACTNATIVE} from '../IconsComponent/Icons';
 
 const Skills = () => {
     return (

@@ -1,0 +1,35 @@
+.modalTitle {
+    justify-content: center;
+    background-image: linear-gradient(180deg, #d0d0d0, #c0c0c0);
+    border: none;
+}
+
+.modalBody {
+    background-image: linear-gradient(180deg, #c0c0c0, #aaaaaa);
+    border: none;
+}
+
+.modalFooter {
+    background-image: linear-gradient(180deg, #aaaaaa, #888888);
+    border: none;
+}
+
+.projectModal {
+    color: red;
+}
+
+.modalIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modalImage {
+    width: 25rem;
+    height:25rem;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.modalRow {
+    text-align: center;
+}

@@ -1,21 +1,22 @@
 import React from 'react';
 import { Container, Row, Col, Carousel, Card } from 'react-bootstrap';
 
-import {IconHTML, IconCSS, IconJS, IconMONGO, IconNODE, IconREACT, IconARROWDOWN, IconREACTNATIVE } from './Icons';
-import ProjectModal from './ProjectModal';
+import {IconHTML, IconCSS, IconJS, IconREACT, IconARROWDOWN, IconREACTNATIVE } from '../IconsComponent/Icons';
+import ProjectModal from '../ProjectsModalComponent/ProjectModal';
 
-import ReactNativeHome from '../Images/ReactNativeHome.png';
-import ReactNativeAbout from '../Images/ReactNativeAbout.png';
-import ReactNativeAttractions from '../Images/ReactNativeAttractions.png';
-import ReactNativeMap from '../Images/ReactNativeMap.png';
-import ReactNativeBeaches from '../Images/ReactNativeBeaches.png';
-import Reacthome from '../Images/ReactHome.png'
-import RHome from '../Images/ReactHome.png';
-import RB from '../Images/ReactBeaches.png';
-import RR from '../Images/ReactRestaurants.png';
-import RShops from '../Images/ReactShops.png';
-import RSights from '../Images/ReactSights.png';
-import RT from '../Images/ReactTraditions.png';
+
+import ReactNativeHome from '../../Images/ReactNativeHome.png';
+import ReactNativeAbout from '../../Images/ReactNativeAbout.png';
+import ReactNativeAttractions from '../../Images/ReactNativeAttractions.png';
+import ReactNativeMap from '../../Images/ReactNativeMap.png';
+import ReactNativeBeaches from '../../Images/ReactNativeBeaches.png';
+import Reacthome from '../../Images/ReactHome.png'
+import RHome from '../../Images/ReactHome.png';
+import RB from '../../Images/ReactBeaches.png';
+import RR from '../../Images/ReactRestaurants.png';
+import RShops from '../../Images/ReactShops.png';
+import RSights from '../../Images/ReactSights.png';
+import RT from '../../Images/ReactTraditions.png';
 
 const Projects = () => {
     return (

@@ -1,0 +1,16 @@
+.skillsContainer {
+    padding: 6em 3em;
+}
+
+.skillsTitle {
+    margin-bottom: 3rem;
+}
+
+.skillsFlex {
+    display: flex;
+}
+
+.skillIcons {
+    display: flex;
+    justify-content: space-evenly;
+}

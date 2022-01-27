@@ -1,0 +1,5 @@
+.introContainer {
+    background-image: url(../../Images/newHero.jpg);
+    background-size: cover;
+    height: 100vh;
+}
