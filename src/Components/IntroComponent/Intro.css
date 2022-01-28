@@ -3,3 +3,57 @@
     background-size: cover;
     height: 100vh;
 }
+
+
+
+.introFadeContainer {
+    text-align: center;
+    height: 100vh;
+    animation: fadeOutAnimation ease-in 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+        background-color: #F38143;
+    }
+    100% {
+        opacity: 0;
+        background-color: black;
+        
+    }
+
+}
+
+
+
+.fadeZ {
+    animation: fadeZAnimation linear 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeZAnimation {
+    0% {
+        font-size: 30rem;
+        color: red;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.fadeF {
+    animation: fadeFAnimation linear 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeFAnimation {
+    0% {
+        font-size: 30rem;
+        color: red;
+    }
+    100% {
+        color: purple;
+    }
+}
