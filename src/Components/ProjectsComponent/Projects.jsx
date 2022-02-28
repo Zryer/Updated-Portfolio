@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Carousel, Card } from 'react-bootstrap';
 
 import {IconHTML, IconCSS, IconJS, IconREACT, IconARROWDOWN, IconREACTNATIVE } from '../IconsComponent/Icons';
@@ -19,14 +19,17 @@ import RSights from '../../Images/ReactSights.png';
 import RT from '../../Images/ReactTraditions.png';
 
 const Projects = () => {
+    const [show, setShow ] = useState(false);
+    const toggleShow = () => setShow(!show);
+
     return (
         <Container fluid id="Projects" className="projectsContainer">
             <Row className="text-center position-relative top-50">
                 <Col md={6}>
                     <Card className="projectCard">
                         <Card.Body>
-                            <Card.Title>Project React Native</Card.Title>
-                            <Carousel variant="dark" pause={false}>
+                            <Card.Title className="title" onClick={toggleShow}>Project React Native</Card.Title>
+                            {show?<Carousel variant="dark" pause={false} className={show}>
                                 <Carousel.Item className="carouselItem" interval={10000}>
                                     <ProjectModal Name="React Native Project Home Page" Desc="This is the home page" Icon={<><IconREACTNATIVE /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={ReactNativeHome} Github="https://github.com/mj-wd/oahu-project-react-native" />
                                     <Carousel.Caption>Home Page</Carousel.Caption>
@@ -47,7 +50,7 @@ const Projects = () => {
                                     <ProjectModal Name="React Native Project About Page" Desc="This is the about page" Icon={<><IconREACTNATIVE /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={ReactNativeAbout} Github="https://github.com/mj-wd/oahu-project-react-native" />
                                     <Carousel.Caption>About Page</Carousel.Caption>
                                 </Carousel.Item>
-                            </Carousel>
+                            </Carousel>: null}
                         </Card.Body>
                     </Card>
                 </Col>

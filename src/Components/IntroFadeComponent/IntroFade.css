@@ -1,0 +1,63 @@
+.introFadeContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F38143;
+    height: 100vh;
+    position: absolute;
+    cursor: default;
+    animation: fadeOutAnimation ease-in 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        background-color: black;
+        
+    }
+
+}
+
+.introFadeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introFadeTitle {
+    font-size: 8vw;
+}
+
+.fadeZ {
+    animation: fadeZAnimation linear 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeZAnimation {
+    0% {
+        font-size: 32vw;
+        color: red;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.fadeF {
+    animation: fadeFAnimation linear 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeFAnimation {
+    0% {
+        font-size: 32vw;
+        color: red;
+    }
+    100% {
+        color: purple;
+    }
+}

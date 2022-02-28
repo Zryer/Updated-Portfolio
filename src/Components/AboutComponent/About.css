@@ -1,8 +1,8 @@
 .aboutImage {
-    width: 15rem;
-    height: 15rem;
+    width: 50vmax;
+    height: auto;
 }
 
 .aboutContainer {
-    padding: 6em 3em;
+    height: 100vh;
 }

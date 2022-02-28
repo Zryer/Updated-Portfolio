@@ -8,6 +8,6 @@
 
 
 .footerContainer {
-    padding: 6em 3em;
+    max-width: 100%;
     background-color: #a9a9a9;
 }

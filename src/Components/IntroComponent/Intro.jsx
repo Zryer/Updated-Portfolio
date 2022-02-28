@@ -1,25 +1,21 @@
 import React from 'react';
 import { Container, Row, Col, } from 'react-bootstrap';
+import IntroFade from '../IntroFadeComponent/IntroFade';
 
 const Intro = () => {
-    return(
+    return (
         <>
+            <IntroFade />
             <Container fluid className="introContainer" id="Home">
-            <Row>
-                <Col>
-                    <h1 className="position-absolute top-50 start-50 translate-middle text-danger">Welcome</h1>
-                </Col>
-            </Row>
-        </Container>
-        <Container fluid className="introFadeContainer position-absolute top-50 start-50 translate-middle">
-            <Row>
-                <Col>
-                    <h1 className="introFade position-absolute top-50 start-50 translate-middle">{<span className="fadeZ">Z</span>}achary <span className="fadeF">F</span>isher</h1>
-                </Col>
-            </Row>
-        </Container>
+                <Row className="introRow">
+                    <Col className="mainContainer">
+                    <Col className="introDiv" xs={12}>
+                        <h1 className="introTitle">Welcome</h1>
+                    </Col>
+                    </Col>
+                </Row>
+            </Container>
         </>
-
     )
 }
 

@@ -1,4 +1,24 @@
 .navbar {
-    justify-content: center;
-    padding: 0;
+    justify-content: space-evenly !important;
+    padding-bottom: 0;
+}
+
+.navbarContainer {
+    justify-content: space-between !important;
+    text-align: center;
+}
+
+.navLink {
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    font-size: 2vmax;
+}
+
+.navbarBrand {
+    margin: 0;
+}
+
+.navbarBrandImage {
+    width: 3vmax;
+    height: auto;
 }

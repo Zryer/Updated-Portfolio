@@ -17,3 +17,16 @@
     margin-top:1rem;
     background-color: #FF9138;
 }
+
+.hidden {
+    display:none;
+}
+
+.showUp {
+    display:block;
+    background-color: red;
+}
+
+.title {
+    cursor: pointer;
+}

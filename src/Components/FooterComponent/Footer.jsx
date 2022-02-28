@@ -4,7 +4,7 @@ import { IconLINKEDIN, IconGITHUB } from '../IconsComponent/Icons';
 
 const Footer = () => {
     return(
-        <Container fluid id="Links" className="footerContainer">
+        <Container fluid id="Contact" className="footerContainer">
             <Row className="text-center position-relative top-50">
                 <Col xs={12}><h1>Contact Me</h1></Col>
                 <Col><a href="https://github.com/Zryer" target="blank" className="footerGithub"><IconGITHUB /></a></Col>
