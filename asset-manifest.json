@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Updated-Portfolio/static/css/main.2cab719c.css",
+    "main.js": "/Updated-Portfolio/static/js/main.f1866bcb.js",
+    "static/media/ReactShops.png": "/Updated-Portfolio/static/media/ReactShops.5c429ccda51f268c31eb.png",
+    "static/media/ReactTraditions.png": "/Updated-Portfolio/static/media/ReactTraditions.89a89bdd15041305f4fe.png",
+    "static/media/ReactSights.png": "/Updated-Portfolio/static/media/ReactSights.a53305eea4d60382e173.png",
+    "static/media/ReactRestaurants.png": "/Updated-Portfolio/static/media/ReactRestaurants.f19914b52ab6acf623bc.png",
+    "static/media/ReactBeaches.png": "/Updated-Portfolio/static/media/ReactBeaches.e574f6393f070e6247e1.png",
+    "static/media/ReactHome.png": "/Updated-Portfolio/static/media/ReactHome.ff9382cc7103f113d73f.png",
+    "static/media/ReactNativeAttractions.png": "/Updated-Portfolio/static/media/ReactNativeAttractions.03c2e06294c7c7305c10.png",
+    "static/media/ReactNativeHome.png": "/Updated-Portfolio/static/media/ReactNativeHome.93c9553cef92175ffccd.png",
+    "static/media/ReactNativeAbout.png": "/Updated-Portfolio/static/media/ReactNativeAbout.baddc511323182442d78.png",
+    "static/media/ReactNativeBeaches.png": "/Updated-Portfolio/static/media/ReactNativeBeaches.2e2d0b030eb4ad16162e.png",
+    "static/media/ReactNativeMap.png": "/Updated-Portfolio/static/media/ReactNativeMap.5aa6b020c761428fd572.png",
+    "static/media/Zach.jpg": "/Updated-Portfolio/static/media/Zach.aad68239547218c2f9d5.jpg",
+    "static/media/zachpose.jpg": "/Updated-Portfolio/static/media/zachpose.9e8b72f4f7264a9208a9.jpg",
+    "index.html": "/Updated-Portfolio/index.html",
+    "main.2cab719c.css.map": "/Updated-Portfolio/static/css/main.2cab719c.css.map",
+    "main.f1866bcb.js.map": "/Updated-Portfolio/static/js/main.f1866bcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cab719c.css",
+    "static/js/main.f1866bcb.js"
+  ]
+}
