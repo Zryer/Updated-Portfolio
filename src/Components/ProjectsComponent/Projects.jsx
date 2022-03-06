@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Carousel, Card } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Carousel from 'react-bootstrap/Carousel';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 import {IconHTML, IconCSS, IconJS, IconREACT, IconARROWDOWN, IconREACTNATIVE } from '../IconsComponent/Icons';
 import ProjectModal from '../ProjectsModalComponent/ProjectModal';
@@ -24,11 +29,12 @@ const Projects = () => {
 
     return (
         <Container fluid id="Projects" className="projectsContainer">
-            <Row className="text-center position-relative top-50">
+            <Row className="text-center">
+                <Col xs={12}><Button variant="danger" onClick={toggleShow}>Toggle Projects</Button></Col>
                 <Col md={6}>
                     <Card className="projectCard">
                         <Card.Body>
-                            <Card.Title className="title" onClick={toggleShow}>Project React Native</Card.Title>
+                            <Card.Title>Project React Native</Card.Title>
                             {show?<Carousel variant="dark" pause={false} className={show}>
                                 <Carousel.Item className="carouselItem" interval={10000}>
                                     <ProjectModal Name="React Native Project Home Page" Desc="This is the home page" Icon={<><IconREACTNATIVE /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={ReactNativeHome} Github="https://github.com/mj-wd/oahu-project-react-native" />
@@ -58,7 +64,7 @@ const Projects = () => {
                     <Card className="projectCard">
                         <Card.Body>
                             <Card.Title>Project React</Card.Title>
-                            <Carousel variant="dark" pause={false}>
+                            {show?<Carousel variant="dark" pause={false} className={show}>
                                 <Carousel.Item className="carouselItem" interval={10000}>
                                     <ProjectModal Name="Home page of react Project" Desc="first image" Icon={<><IconHTML /><IconCSS /><IconJS /><IconREACT /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={RHome} Github="https://github.com/mj-wd/oahu-project-react" />
                                     <Carousel.Caption>Home Page</Carousel.Caption>
@@ -83,7 +89,7 @@ const Projects = () => {
                                     <ProjectModal Name="Second project second image" Desc="second image" Icon={<><IconHTML /><IconCSS /><IconJS /><IconREACT /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={RShops} Github="https://github.com/mj-wd/oahu-project-react" />
                                     <Carousel.Caption>Shopping Page</Carousel.Caption>
                                 </Carousel.Item>
-                            </Carousel>
+                            </Carousel>: null}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -91,7 +97,7 @@ const Projects = () => {
                     <Card className="projectCard">
                         <Card.Body>
                             <Card.Title>Old Portfolio</Card.Title>
-                            <Carousel variant="dark" pause={false}>
+                            {show?<Carousel variant="dark" pause={false} className={show}>
                                 <Carousel.Item className="carouselItem" interval={10000}>
                                     <ProjectModal Name="Home page of react Project" Desc="first image" Icon={<><IconHTML /><IconCSS /><IconJS /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={Reacthome} Github="https://github.com/Zryer/Old-Portfolio" />
                                     <Carousel.Caption>This is my first project</Carousel.Caption>
@@ -100,7 +106,7 @@ const Projects = () => {
                                     <ProjectModal Name="Second project second image" Desc="second image" Icon={<><IconHTML /><IconCSS /><IconJS /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={Reacthome} Github="https://github.com/Zryer/Old-Portfolio" />
                                     <Carousel.Caption>This is my first project</Carousel.Caption>
                                 </Carousel.Item>
-                            </Carousel>
+                            </Carousel>: null}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -108,7 +114,7 @@ const Projects = () => {
                     <Card className="projectCard">
                         <Card.Body>
                             <Card.Title>Updated Portfolio</Card.Title>
-                            <Carousel variant="dark" pause={false}>
+                            {show?<Carousel variant="dark" pause={false} className={show}>
                                 <Carousel.Item className="carouselItem" interval={10000}>
                                     <ProjectModal Name="Home page of react Project" Desc="first image" Icon={<><IconHTML /><IconCSS /><IconJS /><IconREACT /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={Reacthome} />
                                     <Carousel.Caption>This is my first project</Carousel.Caption>
@@ -117,7 +123,7 @@ const Projects = () => {
                                     <ProjectModal Name="Second project second image" Desc="second image" Icon={<><IconHTML /><IconCSS /><IconJS /><IconREACT /></>} IconHeader={<h1>Built using {<IconARROWDOWN />}</h1>} Img={Reacthome} />
                                     <Carousel.Caption>This is my first project</Carousel.Caption>
                                 </Carousel.Item>
-                            </Carousel>
+                            </Carousel>: null}
                         </Card.Body>
                     </Card>
                 </Col>

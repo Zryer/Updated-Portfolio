@@ -1,5 +1,6 @@
 .projectsContainer {
-    padding: 6em 3em;
+    background-color: red;
+    padding: 6vh 3vh;
 }
 
 .carouselItem {
@@ -7,9 +8,9 @@
 }
 
 .carouselImage {
-    margin-bottom: 5rem;
+    margin-bottom: 10vh;
     width: auto;
-    height: 20rem;
+    height: 20vh;
 }
 
 .projectCard {
